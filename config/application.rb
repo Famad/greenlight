@@ -37,8 +37,8 @@ module Greenlight
     config.exceptions_app = routes
 
     # Configure I18n localization.
-    config.i18n.available_locales = [:en]
-    config.i18n.default_locale = :en
+    config.i18n.available_locales = [:fa_IR]
+    config.i18n.default_locale = :fa_IR
 
     # Check if a loadbalancer is configured.
     config.loadbalanced_configuration = ENV["LOADBALANCER_ENDPOINT"].present? && ENV["LOADBALANCER_SECRET"].present?
@@ -126,7 +126,7 @@ module Greenlight
     config.maintenance_mode = ENV["MAINTENANCE_MODE"] == "true"
 
     config.report_issue_url = ENV["REPORT_ISSUE_URL"]
-    config.help_url = ENV["HELP_URL"].nil? ? "https://docs.bigbluebutton.org/greenlight/gl-overview.html" : ENV["HELP_URL"]
+    config.help_url = ENV["HELP_URL"].nil? ? "https://cp.famad.it" : ENV["HELP_URL"]
 
     # File types allowed in preupload presentation
     config.allowed_file_types = ".doc,.docx,.ppt,.pptx,.pdf,.xls,.xlsx,.txt,.rtf,.odt,.ods,.odp,.odg,.odc,.odi,.jpg,.jpeg,.png"
@@ -134,16 +134,16 @@ module Greenlight
     # DEFAULTS
 
     # Default branding image if the user does not specify one
-    config.branding_image_default = "https://raw.githubusercontent.com/bigbluebutton/greenlight/master/app/assets/images/logo_with_text.png"
+    config.branding_image_default = "https://famad.it/famad_site_logo.png"
 
     # Default primary color if the user does not specify one
-    config.primary_color_default = "#467fcf"
+    config.primary_color_default = "#F37324"
 
     # Default primary color lighten if the user does not specify one
-    config.primary_color_lighten_default = "#e8eff9"
+    config.primary_color_lighten_default = "#fdeade"
 
     # Default primary color darken if the user does not specify one
-    config.primary_color_darken_default = "#316cbe"
+    config.primary_color_darken_default = "#F1440F"
 
     # Default registration method if the user does not specify one
     config.registration_method_default = if ENV["DEFAULT_REGISTRATION"] == "invite"

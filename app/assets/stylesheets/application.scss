@@ -46,17 +46,20 @@
 @import "sessions";
 @import "utilities/fonts";
 @import "users";
+@import "rtl";
 
 * {
   outline: none !important;
 }
 
 html, body {
-  font-family: "Source Sans Pro" !important;
+  font-family: Vazir, tahoma !important;
   position: relative;
   width: 100%;
   height: 100%;
   background-color: white;
+  direction: rtl;
+  text-align: right;
 }
 
 a {
