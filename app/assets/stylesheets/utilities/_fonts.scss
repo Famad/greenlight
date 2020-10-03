@@ -536,11 +536,11 @@
 
 @font-face {
   font-family: Vazir;
-  src: asset-url(font-path('Vazir-Light-FD.eot'));
-  src: asset-url(font-path('Vazir-Light-FD.eot?#iefix')) format('embedded-opentype'),
-       asset-url(font-path('Vazir-Light-FD.woff2')) format('woff2'),
-       asset-url(font-path('Vazir-Light-FD.woff')) format('woff'),
-       asset-url(font-path('Vazir-Light-FD.ttf')) format('truetype');
+  src: asset-url(font-path('Vazir/Vazir-Light-FD.eot'));
+  src: asset-url(font-path('Vazir/Vazir-Light-FD.eot?#iefix')) format('embedded-opentype'),
+       asset-url(font-path('Vazir/Vazir-Light-FD.woff2')) format('woff2'),
+       asset-url(font-path('Vazir/Vazir-Light-FD.woff')) format('woff'),
+       asset-url(font-path('Vazir/Vazir-Light-FD.ttf')) format('truetype');
   font-weight: 300;
 }
 
