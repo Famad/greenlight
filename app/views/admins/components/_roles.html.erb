@@ -92,7 +92,7 @@
             <div class="mt-4">
                 <%= f.submit t("update"), class: "btn btn-primary float-right ml-2 mb-2", disabled: edit_disabled %>
                 <% if @selected_role.name != "user" && @selected_role.name != "admin" && !edit_disabled %>
-                    <%= link_to admin_delete_role_path(@selected_role.id), method: :delete, class: "float-right btn btn-danger" do %>
+                    <%= link_to admin_delete_role_path(@selected_role.id), method: :delete, class: "float-left btn btn-danger" do %>
                         <%= t("administrator.roles.delete") %>
                     <% end %>
                 <% end %>
