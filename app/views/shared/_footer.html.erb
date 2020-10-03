@@ -15,7 +15,8 @@
 
 <footer class="footer pt-3">
   <p class="text-center mb-1">
-    <%= t("footer.powered_by", href: link_to(t("greenlight"), "https://bigbluebutton.org/2018/07/09/greenlight-2-0/", target: "_blank", rel: "noopener")).html_safe %> <%= Greenlight::Application::VERSION %>
+    <%= t("footer.copyrighted", href: link_to(t("elmotechnic"), "https://elmotechnic.sch.ir/", target: "_blank", rel: "noopener")).html_safe %> - <%= t("footer.allrights") %><br>
+      <%= t("footer.developed", href: link_to(t("famadit"), "https://famad.it/", target: "_blank", rel: "noopener")).html_safe %>
     <% if legal_url.present? %>
       <span>
         |

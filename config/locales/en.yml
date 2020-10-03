@@ -280,13 +280,16 @@ en:
   footer:
     legal: قوانین
     privpolicy: سیاست حریم خصوصی
-    powered_by: "استفاده شده از %{href}."
+    copyrighted: "حق تکثیر © 1399 %{href}."
+    developed: "پیاده سازی و اجرا توسط %{href}."
+    allrights: "تمامی حقوق مادی و معنوی محفوظ است."
   forgot_password:
     subtitle: فراموشی رمز عبور
     email: ایمیل
     submit: ارسال
   go_back: بازگشت
-  greenlight: گرین لایت
+  elmotechnic: هنرستان فنی و حرفه ای علم و تکنیک
+  famadit: گروه فناوری اطلاعات فامد
   header:
     all_recordings: تمام جلسات ضبط شده
     dropdown:

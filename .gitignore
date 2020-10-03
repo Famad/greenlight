@@ -50,3 +50,5 @@ coverage*
 
 /atom-sftp-sync.json
 app/views/layouts/_notes/dwsync.xml
+app/views/shared/_notes/dwsync.xml
+config/locales/_notes/dwsync.xml
