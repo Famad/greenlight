@@ -45,10 +45,10 @@
                 <li class="nav-item dropdown"> 
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       <% if current_user.image.blank? || !valid_url?(current_user.image) %>
-                        <span class="avatar mr-2 d-none d-lg-inline-block"><%= current_user.name.first %></span>
+                        <span class="avatar ml-2 d-none d-lg-inline-block"><%= current_user.name.first %></span>
                       <% else %>
                         <span id="user-avatar" class="avatar"><%= current_user.name.first %></span>
-                        <%= image_tag(current_user.image, id: "user-image", class: "avatar mr-2 d-none d-lg-inline-block") %>
+                        <%= image_tag(current_user.image, id: "user-image", class: "avatar ml-2 d-none d-lg-inline-block") %>
                       <% end %>
                         <span class="text-default username"><%= current_user.name %></span>
                     </a>
