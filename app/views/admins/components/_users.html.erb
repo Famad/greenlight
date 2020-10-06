@@ -71,7 +71,7 @@
                       <div><%= user.name %></div>
                       <div class="small text-muted"><%= [t("administrator.users.table.created"), ": ", user.created_at].join %></div>
                     </td>
-                    <td class="user-email" style="font-family: tahoma;"><%= user.email && user.email != "" ? user.email : user.username%></td>
+                    <td class="user-email" style="font-family: tahoma;direction:ltr;" dir="ltr"><%= user.email && user.email != "" ? user.email : user.username%></td>
                     <td><%= user.provider %></td>
                     <td class="text-center">
                       <%= render "admins/components/admins_role", role: user.role %>
