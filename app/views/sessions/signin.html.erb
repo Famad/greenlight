@@ -41,7 +41,7 @@
           <%= form_for(:session, url: create_session_path) do |f| %>
             <div class="form-group">
               <div class="input-icon">
-                <%= f.email_field :email, class: "form-control", placeholder: t("email"), value: "" %>
+                <%= f.email_field :email, class: "form-control", placeholder: t("email"), value: "", dir: "ltr", style: "font-family:tahoma;" %>
                 <span class="input-icon-addon">
                   <i class="fas fa-at"></i>
                 </span>
